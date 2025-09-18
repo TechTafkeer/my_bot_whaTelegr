@@ -39,8 +39,10 @@ const كلمات_معلنين = fs
 
 create({
   sessionId: "new_num",
-  useChrome: true,
+  executablePath: process.env.CHROME_PATH,
+  useChrome: false,
   headless: true, //عند استخراج الاعضاء من القروبات نجعله false
+  multiDevice: true,
   timeout: 60000, //دقائق 1
   authTimeout: 300, //دقائق 5
   qrTimeout: 180000, //دقائق 3
