@@ -1,0 +1,26 @@
+{
+  "name": "whats_copy",
+  "version": "1.0.0",
+  "description": "بوت واتساب ذكي لمراقبة القروبات والرد التلقائي",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "open-wa",
+    "automation",
+    "security",
+    "monitoring"
+  ],
+  "author": "Ezzaldeen",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.76.0",
+    "dotenv": "^16.6.1",
+    "node-persist": "^3.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "sqlite3": "^5.1.6"
+  }
+}
